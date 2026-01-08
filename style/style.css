@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.fira-sans {
+  font-family: "Fira Sans", sans-serif;
+}
+
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.my-btn {
+    border-radius: 8px;
+    padding: 12px;
+    font-weight: 600;
+    border: 1px solid #006a50;
+    color: #006a50;
+    background-color: white;
+}
+
+.common-btn {
+    border-radius: 8px;
+    padding: 17px 34px;
+    font-weight: 600;
+    border: none;
+    color: #ffffff;
+    background-color: #006a50;
+    cursor: pointer;
+}
+
+
+/* Main Css  */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 31px 0;
+}
+
+.hero-parent{
+    border-radius: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #C6E4D6;
+    padding: 100px 80px;
+    gap: 64px;
+    margin-top: 20px;
+    margin-bottom: 80px;
+}
+
+.hero-parent h2 {
+    color: #0e0e0ea8;
+    font-size: 24px;
+    font-weight: 500;    
+}
+
+.hero-parent p {
+    font-weight: 700;
+    font-size: 56px;
+    color: #0E0E0E;
+    margin: 20px 0;
+}
+
+/* Pillars of "Bangladesh 2.0" */
+.pillars-parent{
+    margin-top: 80px;
+    margin-bottom: 80px;
+
+}
+.pillars-header{
+    font-weight: 700;
+    color: #0E0E0E;
+}
+
+.pillars-card-parent {
+    display: flex;
+    gap: 24px;
+    justify-content: space-between;
+    margin-top: 32px;
+}
+
+.pillars-card {
+    padding: 24px;
+    border-radius: 16px;
+    width: 302px;
+    border: 1px solid #0E0E0E;
+    box-shadow: 0 1px 20px rgba(0, 0, 0, 0.021);
+
+}
+/* commony use  */
+.pillars-parent .pillars-card img, .vision-card img{
+    width: 62px;
+    height: 62px;
+    margin-bottom: 16px;
+}
+
+
+
+.pillars-card p , .vision-card p{
+    margin-top: 12px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #383838;
+}
+
+/* The vision of Future */
+.vision-parents{
+    margin: 80px auto;
+}
+
+.vision-header h1{
+    font-weight: 700;
+    color: #0E0E0E;
+    margin-bottom: 24px;
+}
+
+.vision-header p{
+    font-size: 16px;
+    line-height: 24px;
+    color: #0e0e0e9f;
+}
+
+.vision-card-parent{
+    display: flex;
+    gap: 24px;
+    justify-content: space-between;
+    margin: 32px 0;
+    /* padding: 32px; */
+}
+
+.vision-card-parent .vision-card {
+    padding: 32px;
+    border-radius: 16px;
+    /* width: 410px;
+    height: 325px; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex: 1;
+}
+
+.vision-card-parent .vcard-1 {
+    background-color: #bcd2f8;
+}
+.vision-card-parent .vcard-2 {
+    background-color: #C6E4D6;
+}
+.vision-card-parent .vcard-3 {
+    background-color: #F7EBCF;
+}
+.vision-card .blue-btn{
+    background-color: #5490F5;
+}
+.vision-card .green-btn{
+    background-color: #09A15C;
+}
+.vision-card .yellow-btn{
+    background-color: #FFC239;
+}
+
+
+.vision-card p{
+    margin-bottom: 16px;
+}
+
+.vision-card .vision-btn {
+     margin-top: auto;
+}
