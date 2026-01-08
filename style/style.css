@@ -196,3 +196,56 @@ nav {
     font-weight: 16px;
     color: #222222;
 }
+
+
+.full-table{
+    background-color: #FFFFFF;
+    padding: 32px;
+    border-radius: 16px;
+    margin-bottom: 80px;
+}
+
+.full-table .row-header {
+    background-color: #C6E4D6;
+}
+
+.opinion-parents h1 {
+    margin-bottom: 24px;
+    font-weight: 700;
+    color: #0E0E0E;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #3a3a3a42;
+    margin-top: -1px;
+    padding: 24px;
+    font-weight: bold;
+}
+
+.opinion-dropdown {
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #0E0E0E;
+    background-color: #C6E4D6;
+    cursor: pointer;
+}
+
+.col-left {
+    flex: 3;
+    /* padding: 15px; */
+}
+
+.col-right {
+    flex: 1;
+    /* padding: 15px; */
+    /* মাঝখানের লম্বা লম্বি কালো দাগটির জন্য */
+    border-left: 1px solid #0E0E0E; 
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
